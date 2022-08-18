@@ -23,7 +23,7 @@ async function getLTCBTC(){
     if (res.status === 200) {
         printPrice("LTCBTC", price);
     }else {
-        printPrice("LTCBTC", "1.20003);
+        printPrice("LTCBTC", "1.20003");
     }
 };
 
